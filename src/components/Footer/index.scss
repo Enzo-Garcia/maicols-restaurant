@@ -1,0 +1,28 @@
+.footer{
+    min-width: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #a9a17a;
+    flex-wrap: wrap;
+    .sections{
+        margin: 20px 0px;
+        text-align: center;
+        &__title{
+            color: #fff;
+            font-size: large;
+        }
+        &__list{
+            li{
+                margin: 10px 0px;
+            }
+            margin: 5px 0px;
+            &__links{
+                color: #ffffffde;
+                margin: 5px 0px;
+            }
+        }
+    }
+}

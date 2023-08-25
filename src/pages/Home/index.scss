@@ -1,0 +1,29 @@
+.home__container{
+    min-width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .main__container{
+        display: flex;
+        article{
+            width: max(90vw, 960px);
+            background: #FFDB9B;
+            margin: 40px 0px;
+            justify-content: center;
+            flex-wrap: wrap;
+            .logo__container, .text__container{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .maicols__logo, .logo__text{
+                    margin: 20px 0px;
+                    border: 1px solid blue;
+                    width: min(85vw, 820px);
+                    text-align: center;
+                }
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+//variables
+$principal-font: #ffff;
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    overflow: hidden;
+}
+.navbar{
+    background-color: #409cd0;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    .brand, .menu, .account{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        //border: 1px solid red;
+        margin: 1rem 0px;
+        &__name, &__links, &__link{
+            text-align: center;
+            color: $principal-font;
+            font-size: large;
+        }
+        &__links, &__link{
+            padding: 0px 10px;
+            text-align: center;
+        }
+    }
+}
